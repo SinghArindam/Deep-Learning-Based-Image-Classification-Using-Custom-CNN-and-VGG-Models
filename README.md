@@ -30,7 +30,7 @@ The primary differences lie in their depth, the specific arrangement of layers, 
 
 | Feature                | VGG16                     | VGG19                     | Custom CNN (Resnet18) |
 | :--------------------- | :------------------------ | :------------------------ | :------------------------- |
-| Number of Weight Layers | 16                        | 19                        | Varies (depends on block configuration) |
+| Number of Weight Layers | 16                        | 19                        | 18 |
 | Convolutional Layers   | 13                        | 16                        | 17(16+1), organized in blocks |
 | Fully Connected Layers | 3                         | 3                         | 1 (for classification) |
 | Architectural Element  | Sequential convolutional/pooling layers | Sequential convolutional/pooling layers | Includes Residual Blocks (Skip Connections) |

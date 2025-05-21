@@ -32,9 +32,9 @@ The primary differences lie in their depth, the specific arrangement of layers, 
 | :--------------------- | :------------------------ | :------------------------ | :------------------------- |
 | Number of Weight Layers | 16                        | 19                        | Varies (depends on block configuration) |
 | Convolutional Layers   | 13                        | 16                        | 17(16+1), organized in blocks |
-| Fully Connected Layers | 3                         | 1                         | Typically 1 (for classification) |
+| Fully Connected Layers | 3                         | 3                         | 1 (for classification) |
 | Architectural Element  | Sequential convolutional/pooling layers | Sequential convolutional/pooling layers | Includes Residual Blocks (Skip Connections) |
-| Input Size (typical)   | $224 \times 224$          | $224 \times 224$          | $32 \times 32$ (for CIFAR-10) |
+| Input Size (typical)   | 224 x 224          | 224 x 224          | 32 x 32 (for CIFAR-10) |
 
 ## Implementation Details
 

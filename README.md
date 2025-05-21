@@ -28,7 +28,7 @@ Implemented a custom CNN model for image classification on CIFAR-10. The archite
 
 The primary differences lie in their depth, the specific arrangement of layers, and the use of architectural elements like residual connections.
 
-| Feature                | VGG16                     | VGG19                     | Custom CNN (from Notebook) |
+| Feature                | VGG16                     | VGG19                     | Custom CNN (Resnet18) |
 | :--------------------- | :------------------------ | :------------------------ | :------------------------- |
 | Number of Weight Layers | 16                        | 19                        | Varies (depends on block configuration) |
 | Convolutional Layers   | 13                        | 16                        | Multiple, organized in blocks |
